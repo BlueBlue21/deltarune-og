@@ -1,0 +1,12 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "deltarune-og",
+	"main": "src/index.tsx",
+	"compatibility_date": "2025-02-14",
+	"compatibility_flags": ["nodejs_compat_v2"],
+	"assets": { "directory": "public", "binding": "assets" },
+	"minify": true,
+	"observability": {
+		"enabled": true
+	}
+}
