@@ -78,7 +78,7 @@ app.get("/new", (c) => {
 		return textBox(c, "얘야, text를 찾을 수 없단다.");
 	}
 
-	return textBox(c, text.replaceAll("|", " "));
+	return textBox(c, text.replaceAll("_", " ").replaceAll("|", "."));
 });
 
 export default app;
